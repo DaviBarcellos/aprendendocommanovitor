@@ -1,0 +1,26 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+	public static void main(String[] args) {
+		// 10. Desenvolva um programa que calcule o Índice de Massa Corporal (IMC) a partir do peso e altura
+		//informados pelo usuário, e informe a categoria de acordo com a tabela IMC.
+
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.println("Informe seu peso");
+		double peso = leia.nextDouble();
+		
+		System.out.println("Informe sua altura");
+		double altura = leia.nextDouble();
+		
+		double imc;
+		imc = peso / (altura * altura);
+		System.out.println("IMC é "+ imc);
+		
+		
+	}
+
+}

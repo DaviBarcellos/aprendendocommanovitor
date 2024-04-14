@@ -1,0 +1,39 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+	
+		//4. Crie um programa que solicite ao usuário o nome de um dia da semana e informe se é um dia útil ou um
+		//final de semana.
+		//definir se o dia é da semana ou se é final de semana, talvez com 1 if 1 elsE.... n deu mto certo...
+		
+		
+		Scanner leia = new Scanner(System.in);
+		System.out.println("digite um dia da semana utilizando apenas caracteres simples");
+		
+		String dia = leia.nextLine();
+		
+		if (dia.equals("segunda-feira") || dia.equals("terça-feira") || dia.equals("quarta-feira") || dia.equals("quinta-feira") || dia.equals("sexta-feira")) {
+			System.out.println("é um dia da semana");
+		} else if (dia.equals("sábado") || dia.equals("domingo")) { 
+			System.out.println("é um dia de final de semana");
+		} else {
+			System.out.println("dia inválido, tente novamente");
+			
+		}
+		leia.close();
+			
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

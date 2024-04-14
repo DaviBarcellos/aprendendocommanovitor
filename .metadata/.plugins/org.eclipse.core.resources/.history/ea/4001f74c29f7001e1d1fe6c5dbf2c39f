@@ -1,0 +1,23 @@
+package Exercicios;
+
+public class dasd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+        Scanner leia = new Scanner(System.in);
+
+        int[] notas = {100, 50, 20, 10, 5, 2, 1};
+        System.out.println("Informe o valor que deseja sacar:");
+        int valor = leia.nextInt();
+
+        for (int nota : notas) {
+            int quantidadeNotas = valor / nota;
+            valor %= nota;
+
+            if (quantidadeNotas > 0) {
+                System.out.printf("%d nota(s) de R$ %d\n", quantidadeNotas, nota);
+            }
+        }
+    }
+}

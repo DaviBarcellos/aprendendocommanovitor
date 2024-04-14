@@ -1,0 +1,44 @@
+package Exercicios;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Exercicio09 {
+
+	public static void main(String[] args) {
+		// 9. Crie um programa que simule um jogo de dados. O usuário lança dois dados
+		// (cada um com valores de 1
+		// a 6) e o programa determina se o usuário ganhou ou perdeu com base na soma
+		// dos valores. Se a soma
+		// for 7 ou 11, o usuário ganha. Se a soma for 2, 3 ou 12, o usuário perde.
+
+		// gerar dois numeros aleatórios que não sejam menores q 2 e nem maiores q 12
+		// estipular a sequencia de mensagem de vencedor e perdedor a seguir o resultado
+
+		Random aleatorio = new Random();
+
+		Scanner leia= new Scanner(System.in);
+		
+		System.out.println("jogue os dados");
+		leia.nextLine();
+		
+		int dice1 = aleatorio.nextInt(6) + 1;
+		
+		int dice2 = aleatorio.nextInt(6) + 1;
+		
+		int resultado = dice1 + dice2;
+		 
+		
+		if (resultado == 7 || resultado == 11) {
+			System.out.println("venceu");
+		}else if (resultado == 2 || resultado ==3 || resultado ==12){
+		  System.out.println("perdeu");
+		}else{ 
+			System.out.println("Tente de novo");
+		}
+		leia.close();
+		}
+		}
+		
+
+

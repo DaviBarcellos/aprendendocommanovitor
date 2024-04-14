@@ -1,0 +1,11 @@
+package Exercicios;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+
+		//5. Desenvolva um programa que peça ao usuário três números e imprima o maior deles
+	
+	}
+
+}

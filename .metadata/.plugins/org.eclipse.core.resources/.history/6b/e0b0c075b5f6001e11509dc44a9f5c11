@@ -1,0 +1,23 @@
+package Exercicios;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+
+		//5. Desenvolva um programa que peça ao usuário três números e imprima o maior deles
+		double potencia = Math.pow(2, 3);
+		System.out.println(potencia);
+		
+		double raizQuadrada = Math.sqrt(25);
+		System.out.println(raizQuadrada);
+
+		// Pegando valor máximo entre dois numeros
+		int maximo = Math.max(500, 900);
+		System.out.println(maximo);
+		
+		// Pegando valor minimo entre dois numeros
+		int minimo = Math.min(500, 900);
+		System.out.println(minimo);
+	}
+
+}

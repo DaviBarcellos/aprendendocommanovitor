@@ -1,0 +1,11 @@
+package Exercicios;
+
+public class Exercicio12 {
+
+	public static void main(String[] args) {
+		// 12. Usando o operador ternário, crie um programa que recebe dois números inteiros como entrada e exibe o
+		//maior deles.
+		//começando com 
+	}
+
+}

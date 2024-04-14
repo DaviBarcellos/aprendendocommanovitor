@@ -1,0 +1,16 @@
+package Exercicios;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+
+		//6. Elabore um programa que receba três notas de um aluno e calcule a média. Se a média for maior ou
+		//igual a 7, imprima "Aprovado"; caso contrário, imprima "Reprovado".
+		
+
+
+		
+
+	}
+
+}
